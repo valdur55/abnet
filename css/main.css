@@ -22,11 +22,11 @@ h2 {
     font-weight: bold;
 }
 
-.container a {
+.tab-content a {
     color: black;
 }
 
-.container ul {
+.tab-content ul {
     padding-left: 0;
     list-style: inside;
 }

@@ -6,37 +6,29 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/nav.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/nav.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" data-toggle="tab" href="#home">Abnet</a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
+<div class="container-fluid">
+ <div class="row">
+  <div id="navigation" class="col-lg-2 col-md-3 col-sm-3">
+          <ul class="nav nav-pills nav-stacked">
             <li class="active"><a data-toggle="tab" href="#home">Avaleht</a></li>
         <li><a data-toggle="tab" href="#intro">Tutvustus</a></li>
         <li><a data-toggle="tab" href="#services">Teenused</a></li>
         <li><a data-toggle="tab" href="#contact">Kontakt</a></li>
         <li><a data-toggle="tab" href="#job">Tööpakkumised</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
-<div class="container">
+        </div>
+  <div class="col-lg-2 col-md-3 col-sm-3 hidden-xs">
+    <!-- Placeholder - keep empty -->
+  </div> 
+<div id="main" class="col-lg-10 col-md-9 col-sm-9 fill">
      <div class="tab-content">
         <div id="home" class="tab-pane active">
             <h1>AB Net</h1>
@@ -166,6 +158,7 @@
             </ul>
 
         </div>
+    </div>
     </div>
 </div>
 
