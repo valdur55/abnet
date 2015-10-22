@@ -1,4 +1,28 @@
-h3 {
+h1 {
     color: blue;
     text-align: center;
+}
+
+h2 {
+    color: blue;
+    font-size: 20px;
+}
+
+#contact ul {
+    color: blue;
+    list-style-type: none;
+    text-align: center;
+}
+
+#contact a {
+    font-weight: bold;
+}
+
+.container a {
+    color: black;
+}
+
+.container ul {
+    padding-left: 0;
+    list-style: inside;
 }
